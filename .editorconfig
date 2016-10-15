@@ -1,19 +1,14 @@
-# Tavernedudev adapted EditorConfig http://EditorConfig.org
-
+# Editor configuration, see http://editorconfig.org
 root = true
 
-[*.{js,css}]
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
 end_of_line = lf
 insert_final_newline = true
-indent_style = space
-indent_size = 4
 trim_trailing_whitespace = true
-charset = utf-8
-max_line_length = 80
-indent_brace_style = 1TBS
-spaces_around_operators = true
-quote_type = auto
 
-[*.json]
-indent_style = space
-indent_size = 4
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
